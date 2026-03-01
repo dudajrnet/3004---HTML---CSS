@@ -1,0 +1,92 @@
+/*Seletores
+    Classe (.)
+    Id (#)
+    h1, body (tag html)
+    https://developer.mozilla.org/pt-BR/docs/Web/CSS    => properties
+*/
+
+.primeira-classe{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 300px;
+}
+
+.conteudo{
+    border: 5px solid gray;
+    background-color: black;
+    color: white;
+    font-weight: 600px;
+    background-image: url("leao.jpg");
+    background-repeat: no-repeat;
+    /* margin: 10% 20% 30% 20%; */
+    /* margin: 5%; */
+    /* margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%; */
+    padding: 30%;
+}
+
+/* 
+    Medidas relativas - se adapta conforme o tamanho do dispositivo
+    %
+    vw
+    vh
+    em - pega o tamanho do pai
+    rem - pega o tamanho do html
+    Medidads absolutas - não muda
+    px
+*/
+
+#primeiro-id{
+     color: coral;
+    font-size: 60px;
+    font-weight: 300px;
+}
+
+/* h1{
+     color: aqua;
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+p{
+     color: cornflowerblue;
+    font-size: 15px;
+    font-weight: 300px;
+} */
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+/* Flex Item */
+.item {
+    margin: 5px;
+    background: yellowgreen;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.flex-wrap{
+    flex-wrap: wrap
+}
+
+.flex-direction{
+    flex-direction: row-reverse;
+}
+
+.flex-justify{
+    justify-content:space-between;
+}
+
+/*o align alinha do topo para baixo*/
+.item-align{
+    align-items: stretch;
+}

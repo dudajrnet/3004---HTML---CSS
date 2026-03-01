@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--A implementação do css pode ser interna - externa - inline-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- interna -->
+    <!-- <style>
+        .primeira-classe
+        {
+            color: blueviolet;
+            font-size: 15px;
+            font-weight: 300px;
+        }
+
+        #primeiro-id
+        {
+            color: coral;
+            font-size: 15px;
+            font-weight: 300px;
+        }
+    </style> -->
+
+    <!-- Externa -->
+     <link rel="stylesheet" href="Estilo.css">
+
+</head>
+<body>
+    <!-- interna e externa -->
+    <!-- <p class="primeira-classe">CSS por Classe</p>
+    <p id="primeiro-id">CSS por id</p> -->
+
+    <!-- Inline -->
+    <p style="color: red; font-size: 50px; font-weight: 300px;">Usando inline</p>
+    
+    <!-- Estilizando a div -->
+    <div class="conteudo">
+        <p>Classe que estiliza a div</p>
+        <p>Estilo na div</p>  
+    </div>
+
+    <h1>display: block (padrão utilizado)</h1>
+    <section class="container">
+        <div class="item">Caixa</div>
+        <div class="item">Quadrado</div>
+        <div class="item">Círculo</div>
+        <div class="item">Retângulo</div>
+        <div class="item">Retângulo</div>
+        <div class="item">Retângulo</div>
+        <div class="item">Retângulo</div>
+    </section>
+
+    <h1>display: flex (layout flexível)</h1>
+    <section class="container flex flex-wrap">
+        <div class="item">Caixa</div>
+        <div class="item">Quadrado</div>
+        <div class="item">Círculo</div>
+        <div class="item">Retângulo</div>
+        <div class="item">Retângulo</div>
+        <div class="item">Retângulo</div>
+        <div class="item">Retângulo</div>
+    </section>
+
+    <h1>display: flex-direction</h1>
+    <section class="container flex flex-wrap flex-direction">
+        <div class="item">Caixa</div>
+        <div class="item">Quadrado</div>
+        <div class="item">Círculo</div>
+        <div class="item">Retângulo</div>
+        <div class="item">Retângulo</div>
+        <div class="item">Retângulo</div>
+        <div class="item">Retângulo</div>
+    </section>
+
+    <h1>display: flex-justify</h1>
+    <section class="container flex flex-wrap flex-justify">
+        <div class="item">Caixa</div>
+        <div class="item">Quadrado</div>
+        <div class="item">Círculo</div>       
+    </section>
+
+    <h1>align-items: stretch;</h1>
+
+    <section class="container flex item-align">
+        <div class="item">Carro</div>
+        <div class="item">O carro está na oficina</div>
+        <div class="item">O carro está na oficina e fica pronto amanhã</div>
+        <div class="item">O carro está na garagem</div>
+    </section>
+
+</body>
+</html>
